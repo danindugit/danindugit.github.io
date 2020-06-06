@@ -63,15 +63,18 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 40px;
+	font-family: "BwNistaInt-xBd";
+	font-size: 40px;
 }
 
 h4, .h4 {
-  font-size: 22px;
+	font-family: "BwNistaInt-xBd";
+	font-size: 22px;
 }
 
 h5, .h5 {
-  font-size: 18px;
+	font-family: "BwNistaInt-xBd";
+	font-size: 18px;
 }
 
 h6, .h6 {
