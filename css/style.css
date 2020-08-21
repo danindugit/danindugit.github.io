@@ -918,7 +918,8 @@ h4.logo{
 }
 
 .skill-img{
-  max-width: 115px;
+  max-width: 130px;
+  max-height: 80px;
   margin-bottom: 15px;
 }
 
