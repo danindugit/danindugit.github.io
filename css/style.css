@@ -923,4 +923,12 @@ h4.logo{
   margin-bottom: 15px;
 }
 
+.avatar{
+  max-width: 400px;
+}
+
+.social-icon{
+  max-width: 20px;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
