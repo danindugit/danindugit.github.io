@@ -330,7 +330,7 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Playfair Display", serif !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .font-tertiary {
@@ -930,5 +930,6 @@ h4.logo{
 .social-icon{
   max-width: 35px;
 }
+
 
 /*# sourceMappingURL=maps/style.css.map */
