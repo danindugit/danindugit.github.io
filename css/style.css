@@ -933,3 +933,11 @@ h4.logo{
 
 
 /*# sourceMappingURL=maps/style.css.map */
+
+/* MY RULES */
+.card{
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  min-height: 250px;
+}
