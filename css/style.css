@@ -941,3 +941,13 @@ h4.logo{
   text-align: center;
   min-height: 250px;
 }
+
+/*social icons*/
+.fa {
+  padding: 30px 60px 0px 60px;
+  font-size: 40px !important;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
