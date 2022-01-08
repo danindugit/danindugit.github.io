@@ -943,11 +943,11 @@ h4.logo{
 }
 
 /*social icons*/
-.fa {
-  padding: 30px 60px 0px 60px;
+.fa.custom-icon{
+  padding: 30px 60px 0px 60px !important;
   font-size: 40px !important;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
+  width: 50px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  color: white !important;
 }
