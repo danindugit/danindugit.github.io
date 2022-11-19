@@ -9,6 +9,7 @@ VERSION:	Versoin Number
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
+
 @font-face {
   font-family: 'BwNistaInt-xBd';
   src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
@@ -24,7 +25,8 @@ body {
   color: #4c4c4c;
 }
 
-p, .paragraph {
+p,
+.paragraph {
   font-weight: 400;
   color: #4c4c4c;
   font-size: 15px;
@@ -32,52 +34,68 @@ p, .paragraph {
   font-family: "Roboto", sans-serif;
 }
 
-p-lg, .paragraph-lg {
+p-lg,
+.paragraph-lg {
   font-size: 22px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000;
   font-family: "Playfair Display", serif;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 80px;
 }
 
 @media (max-width: 991px) {
-  h1, .h1 {
+
+  h1,
+  .h1 {
     font-size: 65px;
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 60px;
 }
 
 @media (max-width: 991px) {
-  h2, .h2 {
+
+  h2,
+  .h2 {
     font-size: 50px;
   }
 }
 
-h3, .h3 {
-	font-family: "BwNistaInt-xBd";
-	font-size: 40px;
+h3,
+.h3 {
+  font-family: "BwNistaInt-xBd";
+  font-size: 40px;
 }
 
-h4, .h4 {
-	font-family: "BwNistaInt-xBd";
-	font-size: 22px;
+h4,
+.h4 {
+  font-family: "BwNistaInt-xBd";
+  font-size: 22px;
 }
 
-h5, .h5 {
-	font-family: "BwNistaInt-xBd";
-	font-size: 18px;
+h5,
+.h5 {
+  font-family: "BwNistaInt-xBd";
+  font-size: 18px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
 }
 
@@ -127,7 +145,8 @@ h6, .h6 {
   background: #542cb7;
 }
 
-.btn-primary.focus, .btn-primary.active {
+.btn-primary.focus,
+.btn-primary.active {
   background: #542cb7 !important;
   box-shadow: none !important;
 }
@@ -138,7 +157,8 @@ h6, .h6 {
   font-weight: bold;
 }
 
-.btn-transparent:active, .btn-transparent:hover {
+.btn-transparent:active,
+.btn-transparent:hover {
   color: #41228e;
 }
 
@@ -255,6 +275,10 @@ a:hover {
 
 .bg-primary {
   background: #41228e !important;
+}
+
+.bg-roche {
+  background: #0066cc !important;
 }
 
 .bg-gray {
@@ -461,7 +485,7 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 300px 0 200px;
+  padding: 200px 0 100px;
   position: relative;
 }
 
@@ -545,7 +569,8 @@ textarea.form-control {
   height: 100%;
 }
 
-.wave::before, .wave::after {
+.wave::before,
+.wave::after {
   content: "";
   position: absolute;
   width: 800px;
@@ -555,9 +580,9 @@ textarea.form-control {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 45%;
   -webkit-transform: translateX(-50%) rotate(0);
-          transform: translateX(-50%) rotate(0);
+  transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 6s linear infinite;
-          animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
   z-index: 10;
 }
 
@@ -565,31 +590,33 @@ textarea.form-control {
   border-radius: 47%;
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-transform: translateX(-50%) rotate(0);
-          transform: translateX(-50%) rotate(0);
+  transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 10s linear -5s infinite;
-          animation: rotate 10s linear -5s infinite;
+  animation: rotate 10s linear -5s infinite;
   z-index: 20;
 }
 
 @-webkit-keyframes rotate {
   50% {
     -webkit-transform: translateX(-50%) rotate(180deg);
-            transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
   }
+
   100% {
     -webkit-transform: translateX(-50%) rotate(360deg);
-            transform: translateX(-50%) rotate(360deg);
+    transform: translateX(-50%) rotate(360deg);
   }
 }
 
 @keyframes rotate {
   50% {
     -webkit-transform: translateX(-50%) rotate(180deg);
-            transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
   }
+
   100% {
     -webkit-transform: translateX(-50%) rotate(360deg);
-            transform: translateX(-50%) rotate(360deg);
+    transform: translateX(-50%) rotate(360deg);
   }
 }
 
@@ -642,12 +669,12 @@ textarea.form-control {
 .hover-wrapper img {
   transition: .3s ease;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hover-wrapper:hover img {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .hover-wrapper:hover .hover-overlay {
@@ -672,7 +699,7 @@ textarea.form-control {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   left: 0;
   right: 0;
   text-align: center;
@@ -695,7 +722,7 @@ textarea.form-control {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .testimonial-bg-shapes .bg-shape-1 {
@@ -828,7 +855,7 @@ blockquote {
   left: 30%;
   top: 50px;
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .page-title-alt .bg-shape-4 {
@@ -888,7 +915,7 @@ blockquote {
   left: 90px;
   bottom: -50px;
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .page-title .bg-shape-6 {
@@ -912,22 +939,22 @@ blockquote {
 }
 
 /*MY CSS RULES*/
-h4.logo{
-	color: white;
-	padding-top: 9px;
+h4.logo {
+  color: white;
+  padding-top: 9px;
 }
 
-.skill-img{
+.skill-img {
   max-width: 130px;
   max-height: 80px;
   margin-bottom: 15px;
 }
 
-.avatar{
+.avatar {
   max-width: 400px;
 }
 
-.social-icon{
+.social-icon {
   max-width: 35px;
 }
 
@@ -935,7 +962,7 @@ h4.logo{
 /*# sourceMappingURL=maps/style.css.map */
 
 /* MY RULES */
-.card{
+.card {
   border: 1px solid grey;
   border-radius: 10px;
   text-align: center;
@@ -943,11 +970,15 @@ h4.logo{
 }
 
 /*social icons*/
-.fa.custom-icon{
+.fa.custom-icon {
   padding: 30px 60px 0px 60px !important;
   font-size: 40px !important;
   width: 50px !important;
   text-align: center !important;
   text-decoration: none !important;
   color: white !important;
+}
+
+.bg-logo {
+  max-width: 200px;
 }
