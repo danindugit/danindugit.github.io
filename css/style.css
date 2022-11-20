@@ -982,3 +982,7 @@ h4.logo {
 .bg-logo {
   max-width: 200px;
 }
+
+.card-body {
+  padding-bottom: 0px;
+}
