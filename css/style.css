@@ -39,6 +39,11 @@ p-lg,
   font-size: 22px;
 }
 
+p,
+.paragraph-md {
+  font-size: 19px;
+}
+
 h1,
 h2,
 h3,
