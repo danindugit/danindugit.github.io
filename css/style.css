@@ -462,6 +462,16 @@ textarea.form-control {
   padding: 15px 100px;
 }
 
+.navigation.roche {
+  padding: 40px 130px;
+  transition: .3s ease;
+}
+
+.navigation.roche.nav-bg {
+  background-color: #0066cc;
+  padding: 15px 100px;
+}
+
 @media (max-width: 991px) {
   .navigation.nav-bg {
     padding: 15px 20px;
