@@ -485,6 +485,13 @@ textarea.form-control {
   }
 }
 
+@media (max-width: 991px) {
+  .navigation.roche {
+    padding: 20px;
+    background: #0066cc;
+  }
+}
+
 .navbar .nav-item .nav-link {
   font-family: "BwNistaInt-xBd";
   text-transform: uppercase;
