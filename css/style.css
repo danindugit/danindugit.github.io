@@ -991,3 +991,9 @@ h4.logo {
 .card-body {
   padding-bottom: 0px;
 }
+
+img,
+.half-page {
+  min-width: 90%;
+  max-width: 95%;
+}
