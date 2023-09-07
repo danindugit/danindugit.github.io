@@ -476,6 +476,11 @@ textarea.form-control {
   padding: 15px 100px;
 }
 
+.navigation.rbc.nav-bg {
+   background-color: #005DAA;
+   padding: 15px 100px;
+ }
+
 @media (max-width: 991px) {
   .navigation.nav-bg {
     padding: 15px 20px;
