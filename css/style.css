@@ -286,6 +286,10 @@ a:hover {
   background: #0066cc !important;
 }
 
+.bg-rbc {
+   background: #005DAA;
+}
+
 .bg-gray {
   background: #eaeaea !important;
 }
