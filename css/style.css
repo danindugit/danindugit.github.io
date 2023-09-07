@@ -287,7 +287,7 @@ a:hover {
 }
 
 .bg-rbc {
-   background: #005DAA;
+   background: #005DAA !important;
 }
 
 .bg-gray {
