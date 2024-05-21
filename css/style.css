@@ -291,7 +291,7 @@ a:hover {
 }
 
 .bg-co-operators {
-  background: #46b8da !important;
+  background: #004061 !important;
 }
 
 .bg-gray {
@@ -480,6 +480,11 @@ textarea.form-control {
   padding: 15px 100px;
 }
 
+.navigation.co-operators.nav-bg {
+  background-color: #004061;
+  padding: 15px 100px;
+}
+
 .navigation.rbc.nav-bg {
    background-color: #005DAA;
    padding: 15px 100px;
@@ -502,6 +507,13 @@ textarea.form-control {
   .navigation.roche {
     padding: 20px;
     background: #0066cc;
+  }
+}
+
+@media (max-width: 991px) {
+  .navigation.co-operators {
+    padding: 20px;
+    background: #005DAA;
   }
 }
 
@@ -1016,6 +1028,10 @@ h4.logo {
 
 .bg-logo {
   max-width: 200px;
+}
+
+.bg-co-operators-logo {
+  max-width: 500px;
 }
 
 .card-body {
