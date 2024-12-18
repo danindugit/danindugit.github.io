@@ -40,3 +40,52 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Imported styles from old portfolio */
+
+/* Fonts */
+@font-face {
+  font-family: 'BwNistaInt-xBd';
+  src: url("../../public/fonts/BwNistaInt-xBd.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-secondary {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-tertiary {
+  font-family: "BwNistaInt-xBd";
+}
+
+
+/* Navbar */
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navigation {
+  padding: 30px 130px;
+  transition: .3s ease;
+}
+
+@media (max-width: 991px) {
+  .navigation.nav-bg {
+    padding: 15px 20px;
+  }
+}
+
+.navbar .nav-item .nav-link {
+  font-family: "BwNistaInt-xBd";
+  text-transform: uppercase;
+  padding: 15px 20px;
+}
+
+.navbar .nav-item.active {
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
