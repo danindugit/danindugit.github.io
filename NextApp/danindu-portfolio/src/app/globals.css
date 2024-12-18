@@ -74,6 +74,9 @@ a {
   .navigation.nav-bg {
     padding: 15px 20px;
   }
+  nav.navbar {
+    background-color: var(--background);
+  }
 }
 
 .navbar .nav-item .nav-link {

@@ -10,16 +10,15 @@ export default function Navbar() {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navigation"
-          aria-controls="navigation"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        <div className="collapse navbar-collapse text-center" id="navigation">
+        <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
               <Link href="/" className="nav-link">
@@ -42,34 +41,34 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Internships
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link href="/RocheWTR" className="dropdown-item">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Internships
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a className="dropdown-item" href="#">
                   Roche
-                </Link>
-                <Link href="/RBC_WTR" className="dropdown-item">
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
                   RBC
-                </Link>
-                <Link href="/CooperatorsWTR" className="dropdown-item">
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
                   Co-operators
-                </Link>
-              </div>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">
-                Contact
-              </a>
-            </li>
+                </a>
+              </li>
+            </ul>
+          </li>
           </ul>
         </div>
       </nav>
