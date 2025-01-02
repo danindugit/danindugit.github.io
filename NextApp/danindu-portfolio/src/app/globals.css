@@ -48,7 +48,7 @@ hr {
 
 /* Imported styles from old portfolio */
 
-/* Fonts */
+/* Typography */
 @font-face {
   font-family: 'BwNistaInt-xBd';
   src: url("../../public/fonts/BwNistaInt-xBd.woff") format("woff");
@@ -66,6 +66,10 @@ hr {
 
 .text-body-secondary {
   color: #ffffff !important;
+}
+
+h1 {
+  font-size: 60px;
 }
 
 
