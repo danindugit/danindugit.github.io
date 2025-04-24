@@ -1,11 +1,18 @@
 import Link from "next/link";
+import { Fira_Code } from 'next/font/google';
+
+const fira = Fira_Code({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+});
+
 
 export default function Navbar() {
   return (
-    <header className="navigation fixed-top">
+    <header className={`navigation fixed-top ${fira.className}`}>
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <Link href="/" className="navbar-brand font-tertiary h3">
-          <h4 className="logo">Danindu's Portfolio</h4>
+        <Link href="/" className="navbar-brand">
+          <h4 className="logo">Danindu&apos;s Portfolio</h4>
         </Link>
         <button
           className="navbar-toggler"
