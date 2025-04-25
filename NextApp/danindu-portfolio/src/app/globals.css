@@ -46,6 +46,19 @@ hr {
   }
 }
 
+.homeHero {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('/images/homeHero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+
 /* Imported styles from old portfolio */
 
 /* Typography */

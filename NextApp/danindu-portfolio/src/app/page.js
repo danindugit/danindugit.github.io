@@ -6,7 +6,15 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <HeroArea text="Danindu Marasinghe" />
+        <HeroArea className='homeHero' text={<div className="container">
+          <div className="row">
+            <div className="col">
+              <h1 className={styles.title}>Danindu Marasinghe</h1>
+              <h2 className={styles.subtitle}>Full Stack Software Developer</h2>
+            </div>
+          </div>
+        </div>} />
+
         <Image
           className={styles.logo}
           src="/next.svg"
