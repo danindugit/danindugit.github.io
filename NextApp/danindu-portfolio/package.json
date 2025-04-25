@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.5",
     "next": "^15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
