@@ -1112,3 +1112,81 @@ h4.logo {
   min-width: 90%;
   max-width: 95%;
 }
+
+/* portfolio */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.portfolio-card {
+  background: #fff;
+  border: 1px solid rgba(65, 34, 142, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(17, 24, 39, 0.06);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card-body {
+  padding: 22px 22px 18px;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.portfolio-card-text {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.portfolio-links {
+  margin-top: 10px;
+}
+
+.portfolio-links a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #41228e;
+  text-decoration: underline;
+}
+
+.tech-tags {
+  margin-top: 15px;
+}
+
+.tech-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #f7f4ff;
+  color: #2f2f2f;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(65, 34, 142, 0.12);
+  transition: all 0.2s ease;
+}
+
+.tech-tag:hover {
+  transform: translateY(-1px);
+  background: #efe8ff;
+  border-color: rgba(65, 34, 142, 0.2);
+}
+
+.tech-tag i {
+  color: #41228e;
+  font-size: 0.9rem;
+  width: 12px;
+  text-align: center;
+}
