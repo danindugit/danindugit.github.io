@@ -997,6 +997,76 @@ h4.logo {
   margin-bottom: 15px;
 }
 
+.skills-section {
+  padding-top: 30px;
+}
+
+.skill-panels {
+  margin-top: 20px;
+}
+
+.skill-panel {
+  height: 100%;
+  background: #fff;
+  border: 1px solid rgba(65, 34, 142, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(17, 24, 39, 0.06);
+  padding: 24px 22px;
+}
+
+.skill-panel-title {
+  margin-bottom: 18px;
+  color: #41228e;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #f7f4ff;
+  color: #2f2f2f;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid rgba(65, 34, 142, 0.12);
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  transform: translateY(-1px);
+  background: #efe8ff;
+  border-color: rgba(65, 34, 142, 0.2);
+}
+
+.skill-tag i {
+  color: #41228e;
+  font-size: 0.95rem;
+  width: 14px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .skill-panel {
+    padding: 20px 16px;
+  }
+
+  .skill-tag {
+    font-size: 0.82rem;
+    padding: 7px 10px;
+  }
+}
+
 .avatar {
   max-width: 400px;
 }
